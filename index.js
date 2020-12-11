@@ -138,8 +138,10 @@ Use the getLastReview function below to do the following:
 */
 
 
-function getLastReview(/*Your code here*/) {
-  /*Your code here*/
+function getLastReview(array) {
+  lastReview = array [array.length -1]
+  review = lastReview.review
+  return "" + lastReview.review 
 } 
 
 
