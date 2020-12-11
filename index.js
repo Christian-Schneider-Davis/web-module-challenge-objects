@@ -115,10 +115,14 @@ Use the getReviewByIndex function below to do the following:
 
 
 
-function getReviewByIndex(/*Your code here*/) {
-  /*Your code here*/
-}
+function getReviewByIndex(array, index) {
+  let currentObject = array[index];  
+  let name = currentObject.name;
+  let rating = currentObject.rating;
+  let feedback = currentObject.feedback;
+  return name + " gave the restaurant a " + rating + " star review, and their feedback was: " +  feedback;
 
+}
 
   
 
