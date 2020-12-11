@@ -28,7 +28,13 @@ Test your createMenuItems function by doing the following:
   3. Log each returned object to the console  
   
   For example: createMenuItem("pizza",5,"lunch") would return this as the object: {name:"Pizza",price:5,category:"lunch"}
+
+  
 */
+
+console.log(createMenuItem("pizza", 18, "lunch"));
+console.log(createMenuItem("pie", 20, "lunch"));
+console.log(createMenuItem("cake", 20, "lunch"));
 
 
 
